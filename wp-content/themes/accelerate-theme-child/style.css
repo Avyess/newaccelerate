@@ -1,0 +1,122 @@
+
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Avli Media
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+/******************* General Styles ***************/
+h2 {
+  font-weight:400;
+}
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/******************* Blog Posts ***************/
+.blog-post {
+    width: 50%;
+}
+
+.blog-post h4 {
+    font-size: 16px;
+    font-family: "montserrat";
+    color: #a6a6a6;
+    text-transform:uppercase;
+}
+
+.blog-post h2 {
+    font-size:24px;
+    font-family: "montserrat";
+    font-weight: bold;
+}
+
+.blog-post .read-more-link {
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+/***********  header *************/
+li {
+  display: inline;
+  padding: 0px 25px 0px 0px;
+  text-transform: uppercase;
+}
+
+
+/***** Homepage Featured-Work Section ********/
+.featured-work h4 {
+    font-size: 16px;
+    font-family: "montserrat";
+    color: #a6a6a6;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+.homepage-featured-work li {
+    ;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    width: 30%;
+    padding-right: 3%;
+}
+
+/*********** Case Studies *************/
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+    margin: 0px 50px 0px 0px;
+}
+
+.case-study-images {
+    float: left;
+    width: 600px;
+}
+
+.case-study-images img {
+    display: block;
+    margin-bottom:50px;
+    border:1px solid #dddddd
+}
+
+article.case-study {
+  margin-top: 50px;
+}
+
+.case-study h5 {
+  color: #878787;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "open sans";
+  margin: 0px 0px 30px 0px;
+}
+
+.case-study p {
+  margin-bottom: 38px;
+  color: #3b3b3b;
+  font-size: 14px;
+}
